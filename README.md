@@ -18,9 +18,5 @@ https://omkar-rawal.github.io/mindbowser/
 
 
 == Screenshots ==
-1. Manager Login form
-2. Manager signup form
-3. Employee list in dashboard
-5. Add employee form
-6. Update employee form
-7. Delete employee form
+adde full project demo video link====>>
+"https://www.awesomescreenshot.com/video/6764387?key=76179aca574e5ff66a5c4e7fb57b4440"

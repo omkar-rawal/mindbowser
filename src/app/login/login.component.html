@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>Manager Login</h1>
+                    <h5>Feel Free To Login</h5>
+                    <hr>
+                </div>
+                <form [formGroup]="loginform" (ngSubmit)="loginmanager()">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" formControlName="email" class="form-control" id="exampleInputEmail1"
+                            aria-describedby="emailHelp" placeholder="Enter email"
+                            [ngClass]="{ 'is-invalid': submitted && f.email.errors }">
+                        <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                            <div *ngIf="f.email.errors.required">Email is required</div>
+                            <div *ngIf="f.email.errors.email">Email is invalid</div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" formControlName="password" class="form-control"
+                            id="exampleInputPassword1" placeholder="Password"
+                            [ngClass]="{ 'is-invalid': submitted && f.password.errors }">
+                        <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+                            <div *ngIf="f.password.errors.required">Password is required</div>
+                            <div *ngIf="f.password.errors.minlength">
+                                Password must be at least 6 characters
+                            </div>
+                            <div *ngIf="f.password.errors.maxlength">
+                                Username must not exceed 40 characters
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary  mt-4">Login</button>
+                </form>
+                <a routerLink="/signup" class=" mt-2"> New User Click then register here</a>
+            </div>
+
+        </div>
+    </div>
+</div>

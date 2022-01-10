@@ -10,7 +10,7 @@ run json server to json-server --watch db.json in cmd
 
 * When network-activated this project will set the Manager login as default and prevent site home page and manager login and showing all employee list.
 
-githublink->https://github.com/omkar-rawal/mindbowser/tree/master
+githublink->https://github.com/omkar-rawal/mindbowser/
 
 == Screenshots ==
 adde full project demo video link====>>

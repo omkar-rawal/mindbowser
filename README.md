@@ -35,7 +35,7 @@ https://www.awesomescreenshot.com/image/19806424?key=5b485dc122a13a68ce7fe7158e8
 
 All steps 
 
-step1: download full project on github url is--> https://github.com/omkar-rawal/mindbowser
+step1: download full project on github url is--> https://github.com/omkar-rawal/mindbowser/tree/master
 step2: run project using below commant in cmd   "ng serve --o"
 step3: after open project login page showing you have new user then signup manager after then login it
 step4: its redirect to dashboard page to employee list page 
